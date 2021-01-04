@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo_css.css">
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<div class="banner">
+    <div class="logo"> <img src="img/git_hub.png" > </div>
+</div>
+
+
+<div id="agrupar">
+    <header id="cabecera">
+        <img src="img/header.jpg">
+    </header>
+</div>
+
+
+
+
+<nav id="menu">
+    <ul>
+        <li><a href="Index.html">Principal</a></li>
+        <li><a href="Formulario.html">Contacto</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Links</button>
+            <div class="dropdown-content">
+                <a href="https://www.linkedin.com/in/christian-kyonen-40253156/">Linkedin</a>
+                <a href="https://api.whatsapp.com/send?phone=56976504813&text=Hola,%20Mi%20nombre%20es%20Christian%20Kyonen">Whatsapp</a>
+
+            </div>
+        </div>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+
+<div class="contenedor-barra">
+    <h1>Formulario de Contacto</h1>
+</div>
+
+
+
+<div class="contenedor1">
+
+    <div class="bg-gris contenedor sombra">
+        <form id="contacto" action="#">
+
+            <legend>Contactar Con Christian Kyonen</legend>
+            <br>
+
+            <div class="campos">
+                <div class="campo">
+                    <input
+                            type="text"
+                            placeholder="Nombre"
+                            id="nombre"
+                    >
+                </div>
+
+                <div class="campo">
+                    <input
+                            type="text"
+                            placeholder="Empresa"
+                            id="empresa"
+                    >
+                </div>
+
+                <div class="campo">
+                    <input
+                            type="tel"
+                            placeholder="Telefono"
+                            id="telefono"
+                    >
+                </div>
+
+            </div>
+
+
+
+            <div class="campos">
+
+                <div class="campo">
+                    <input
+                            type="email"
+                            placeholder="Mail"
+                            id="mail"
+                    >
+                </div>
+
+                <div class="campo">
+
+                    <textarea name="comentario" rows="5" cols="50" id="comentario">Escribe aquí tu comentario:
+
+                    </textarea>
+
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="campo enviar">
+
+                <input type="hidden" id="accion" value="crear">
+                <input type="submit" value="Enviar">
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+<footer id="pie">
+    Derechos Reservados &copy; 2010-2020
+</footer>
+
+
+
+
+<script src="js/bt_guardar.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
