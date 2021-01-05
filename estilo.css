@@ -64,6 +64,16 @@ body{
 
 
 
+.banner .logo:hover img{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #7a7dde;
+    -webkit-box-shadow: 0px 0px 15px 15px #7a7dde;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+
 #menu{
     background: #CCCCCC;
     padding: 5px 15px;
@@ -130,8 +140,6 @@ body{
     padding: 4px;
     box-shadow: 0px 15px 25px;
 }
-
-
 
 .gallery .image span{
     display: flex ;
@@ -288,12 +296,7 @@ div:not(.dropdown, .dropdown-content) {
 
 
 .logos img{
-
-
-
-
     box-shadow: 0px 15px 25px;
-
 }
 
 
@@ -337,3 +340,6 @@ div:not(.dropdown, .dropdown-content) {
     text-decoration: none;
     color: black;
 }
+
+
+
