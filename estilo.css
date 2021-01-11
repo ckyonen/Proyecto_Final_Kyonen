@@ -10,7 +10,6 @@
 }
 
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -45,23 +44,18 @@ body{
 }
 
 .banner {
-
     width: 100%;
     background: #CCCCCC;
     margin: 0px auto;
     text-align: right;
 
-
 }
 
 .banner .logo img {
-
     width: 3%;
     display: flex ;
     flex-flow: row-reverse wrap;
-
 }
-
 
 
 .banner .logo:hover img{
@@ -89,18 +83,23 @@ body{
 }
 
 
-
 #contenedor-barra {
-
     background: #CCCCCC;
     padding: 5px 15px;
     text-align: center;
 
+
 }
 
 
-#contenedor-imagen {
+#contenedor-barra h1 {
+    font-family: var(--fuenteSecundaria);
+}
 
+
+
+
+#contenedor-imagen {
     background: #CCCCCC;
     padding: 5px 15px;
     text-align: center;
@@ -108,7 +107,16 @@ body{
 }
 
 #contenedor-dp {
+    background: #CCCCCC;
+    padding: 5px 15px ;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px ;
+    font: bold 14px verdana, sans-serif;
+    font-family: var(--fuenteSecundaria);
+}
 
+#contenedor-dp2 {
     background: #CCCCCC;
     padding: 5px 15px ;
     text-align: center;
@@ -119,6 +127,9 @@ body{
 }
 
 
+
+
+
 #contenedor-dp h2{
     text-align: left;
     font: bold 14px verdana, sans-serif;
@@ -126,19 +137,20 @@ body{
 }
 
 
-
-
 .gallery{
     display: flex ;
-    flex-shrink: 3;
-    margin: 2px;
-
+    flex-wrap: wrap;
+    padding: 5px 15px ;
 }
 
 
 .gallery .image{
     padding: 4px;
     box-shadow: 0px 15px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .gallery .image span{
@@ -149,7 +161,6 @@ body{
 
 .gallery .image img {
     width: 100%;
-    vertical-align: middle;
     transition: all 0.3s ease;
 }
 
@@ -158,15 +169,11 @@ body{
 }
 
 
-
 #seccion {
     float: left;
     width: 800px;
     margin: 20px;
-
 }
-
-
 
 
 #columna {
@@ -182,9 +189,11 @@ body{
 #pie{
     clear: both;
     text-align: center;
-    padding: 20px;
     border-top: 2px solid #999999;
     font-family: var(--fuenteSecundaria);
+    background: #1b7ac5;
+    padding: 50px 15px;
+
 }
 
 
@@ -199,18 +208,13 @@ article{
     padding: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
-
 }
 
 
 
 article ul li{
     font-family: var(--fuenteSecundaria);
-
 }
-
-
-
 
 
 article footer{
@@ -254,12 +258,7 @@ div:not(.dropdown, .dropdown-content) {
         display: block;
     }
 
-
-
 }
-
-
-
 
 
 .contenedor {
@@ -270,35 +269,22 @@ div:not(.dropdown, .dropdown-content) {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 
-
-
 .logos {
-
     width: 30%;
     align-items: center;
-
-
-
     padding-top: 30px;
     padding-right: 260px;
     padding-bottom: 30px;
     padding-left: 260px;
-
-
-
-
 }
 
 
 .logos img{
     box-shadow: 0px 15px 25px;
 }
-
 
 
 .dropdown{
